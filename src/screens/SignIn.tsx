@@ -1,18 +1,11 @@
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, VStack, Heading } from 'native-base';
 
 export function SignIn() {
   return (
-    <View style={styles.container}>
-      <Text>Hello world! </Text>
-    </View>
+    <VStack flex={1} alignItems={"center"} bg={"gray.600"} px={8} pt={24}>
+      <Heading color={"gray.100"} mt={20} mb={6}>
+        Acesse sua conta
+      </Heading>
+    </VStack>
   )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
