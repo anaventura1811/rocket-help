@@ -4,6 +4,7 @@
 
 # Android/IntelliJ
 #
+app/google-services.json
 build/
 .idea
 .gradle

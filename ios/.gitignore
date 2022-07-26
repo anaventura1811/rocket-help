@@ -4,6 +4,7 @@
 
 # Xcode
 #
+rockethelp/GoogleService-Info.plist
 build/
 *.pbxuser
 !default.pbxuser
